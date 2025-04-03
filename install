@@ -1,0 +1,7 @@
+pkg update
+pkg upgrade
+pkg install curl nmap chafa python3 python-pip
+pip install requests colorama rich bs4 phonenumbers
+pkg install yt-dlp
+sed -i 's/\r$//' start.sh
+bash start.sh
